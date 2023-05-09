@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif
+}
+
 header{
     text-align: center;
     background-image: url(../img/fundo-topo.jpg);
@@ -37,4 +41,29 @@ nav a{
 
 nav a:hover{
     color: #6dd432;
+}
+
+#itemContato{
+    background-image: none;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+.fundo-verde{
+    background-color: #bdff9c
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.flex-container .col{
+    width: 430px;
 }
