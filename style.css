@@ -1,0 +1,40 @@
+/* Arquivo de estilização do projeto PetShop */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav {
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-position: center right;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover{
+    color: #6dd432;
+}
