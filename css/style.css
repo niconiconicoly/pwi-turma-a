@@ -102,3 +102,21 @@ nav a:hover{
 #produto .flex-container{
     margin-top: 43px;
 }
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    border: 1px solid #6dd432;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+iframe{
+    width: 100%;
+}
