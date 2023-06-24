@@ -120,3 +120,26 @@ form textarea{
 iframe{
     width: 100%;
 }
+
+@media (max-width: 580px){
+    *{
+      margin: 0%;
+      padding: 0%
+    }
+    .container{
+      width: 100%
+    }
+    .flex-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .col{
+      
+      flex-direction: column;
+    }
+    .produto{
+      margin: 1rem;
+      width: 30rem;
+      text-align: center;
+    }
+  }
